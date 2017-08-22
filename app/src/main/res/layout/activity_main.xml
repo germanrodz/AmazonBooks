@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blovvme.amazonbooks.MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/amaphoto"
+        android:layout_weight="1"
+        android:id="@+id/imgMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:onClick="onBooks"
+        android:id="@+id/btnBooksList"
+        android:gravity="center"
+        android:text="Books"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+   <!--
+    <Button
+        android:onClick="onSMS"
+        android:id="@+id/btnSMS"
+        android:text="SMS"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+       -->
+</LinearLayout>
